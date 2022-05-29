@@ -1,7 +1,8 @@
 export const publishers = [
     {
         "name": "EA Sports",
-        "description": "We exist to inspire the world through Play. Electronic Arts is a leading publisher of games on Console, PC and Mobile."
+        "description": "We exist to inspire the world through Play. Electronic Arts is a leading publisher of games on Console, PC and Mobile.",
+        "games": 
     },
     {
         "name": "MrSuicideSheep",
