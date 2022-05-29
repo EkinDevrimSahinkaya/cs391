@@ -1,9 +1,9 @@
 import ekin from './images/2.jpg'
 import ceren from './images/1.jpg'
-import basak from './images/2.jpg'
+import basak from './images/3.jpg'
 import style from './css/style.css'
 
-export default function Contact() {
+export default function About() {
     return (
       <main style={{ padding: "1rem 0" }}>
         <h2>Contact Information</h2>

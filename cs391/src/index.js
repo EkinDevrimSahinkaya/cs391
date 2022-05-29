@@ -19,7 +19,7 @@ root.render(
       <Route path="/" element={<App />}>
         {/* <Route path="products" element={<Products />} /> */}
         <Route path="contact" element={<Contact />} />
-        {/* <Route path="about" element={<About />} /> */}
+        { <Route path="about" element={<About />} /> }
         <Route path="*" element={
             <main style={{ padding: "1rem" }}>
               <p>There's nothing here!</p>
