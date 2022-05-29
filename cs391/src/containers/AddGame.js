@@ -25,6 +25,7 @@ export default function AddGame() {
         <main style={{ padding: "1rem 0" }}>
             <form>
                 <label>Name: <input type="text" name = "name" /></label>
+                <label>description: <input type="text" name = "description" /></label>
                 <label>Publisher: 
                     <Dropdown options={publishers} 
                     onChange={this._onSelect} 
