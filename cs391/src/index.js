@@ -6,6 +6,7 @@ import {
 } from "react-router-dom";
 import App from "./App";
 // import Products from "./containers/Products";
+import AddGame from "./containers/AddGame";
 import Contact from "./containers/Contact";
 import About from "./containers/About";
 
@@ -18,6 +19,7 @@ root.render(
     <Routes>
       <Route path="/" element={<App />}>
         {/* <Route path="products" element={<Products />} /> */}
+        { <Route path="addgame" element={<AddGame />} /> }
         <Route path="contact" element={<Contact />} />
         { <Route path="about" element={<About />} /> }
         <Route path="*" element={
