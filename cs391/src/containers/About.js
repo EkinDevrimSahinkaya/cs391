@@ -1,28 +1,20 @@
 import ekin from './images/2.jpg'
 import ceren from './images/1.jpg'
-import basak from './images/2.jpg'
+import basak from './images/3.jpg'
 import style from './css/style.css'
 
-export default function Contact() {
+export default function About() {
     return (
       <main style={{ padding: "1rem 0" }}>
-        <h2>Contact Information</h2>
-        <b>Çekmeköy Campus Nişantepe District,</b>
-        <p>Orman Street, 34794</p>
-        <p>Çekmeköy - İstanbul</p>
-        <p>info@ozyegin.edu.tr</p>
-  
-        <b>Call us at:</b> +90(216) 564 90 00
-        <br />
-        <b> Fax us at: </b> +90(216) 564 99 99
+        <h2>About Us</h2>
+        <b>Team</b>
+        <p>Ekin Devrim Şahinkaya</p>
+        <p>Ceren Yıldızdoğan</p>
+        <p>Başak Balcı</p>
         <div>
-          <img id="ekin" style={style} src={ekin} alt="Ekin" />;<img />
-        </div>
-        <div>
-          <img id="ceren" style={style} src={ceren} alt="Ceren" />;<img />
-        </div>
-        <div>
-          <img id="basak" style={style} src={basak} alt="Başak" />;<img />
+            <img id="ekin" className={`aboutImg`} style={style} src={ekin} alt="Ekin" />;<img />
+            <img id="ceren" className={`aboutImg`} style={style} src={ceren} alt="Ceren" />;<img />
+            <img id="basak" className={`aboutImg`} style={style} src={basak} alt="Başak" />;<img />
         </div>
       </main>
     );
