@@ -13,13 +13,22 @@ const genres =[
     'Survival and horror', 'Platformer'
 ];
 
+const handleData = (name, value) => {
+    setData({
+      ...data,
+      [name]: value,
+    });
+  };
+
 export default function AddGame() {
     return (
         <main style={{ padding: "1rem 0" }}>
             <form>
                 <label>Name: <input type="text" name = "name" /></label>
                 <label>Publisher: 
-                    <Dropdown options={publishers} onChange={this._onSelect} value={publishers[0]} placeholder="Select an option" />;    
+                    <Dropdown options={publishers} 
+                    onChange={this._onSelect} 
+                    value={publishers[0]} placeholder="Select an option" ></Dropdown>    
                 </label>
                 <label>Game Genre: 
                     <Dropdown options={genres} onChange={this._onSelect} value={genres[0]} placeholder="Select an option" />;    
