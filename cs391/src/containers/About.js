@@ -1,11 +1,29 @@
-// import JobList from '../components/JobList'
-// export default function About() {
-//   return (
-//     <main style={{ padding: "1rem 0" }}>
-//       <h2>About</h2>
-//       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
-//       </p>
-//       <JobList />
-//     </main>
-//   );
-// }
+import ekin from './images/2.jpg'
+import ceren from './images/1.jpg'
+import basak from './images/2.jpg'
+import style from './css/style.css'
+
+export default function Contact() {
+    return (
+      <main style={{ padding: "1rem 0" }}>
+        <h2>Contact Information</h2>
+        <b>Çekmeköy Campus Nişantepe District,</b>
+        <p>Orman Street, 34794</p>
+        <p>Çekmeköy - İstanbul</p>
+        <p>info@ozyegin.edu.tr</p>
+  
+        <b>Call us at:</b> +90(216) 564 90 00
+        <br />
+        <b> Fax us at: </b> +90(216) 564 99 99
+        <div>
+          <img id="ekin" style={style} src={ekin} alt="Ekin" />;<img />
+        </div>
+        <div>
+          <img id="ceren" style={style} src={ceren} alt="Ceren" />;<img />
+        </div>
+        <div>
+          <img id="basak" style={style} src={basak} alt="Başak" />;<img />
+        </div>
+      </main>
+    );
+  }
