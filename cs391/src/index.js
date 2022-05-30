@@ -18,7 +18,6 @@ root.render(
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<App />}>
-        {/* <Route path="products" element={<Products />} /> */}
         { <Route path="addgame" element={<AddGame />} /> }
         <Route path="contact" element={<Contact />} />
         { <Route path="about" element={<About />} /> }
@@ -28,7 +27,7 @@ root.render(
             </main>
           }
         />
-      </Route>
+      </Route>  
     </Routes>
   </BrowserRouter>
 );
