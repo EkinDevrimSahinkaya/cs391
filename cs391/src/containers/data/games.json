@@ -1,5 +1,5 @@
-export const publishers = [
-    {
+{
+    "posts": [{
         "name": "Among Us",
         "description": "An online and local party game of teamwork and betrayal for 4-15 players...in space!",
         "genre": "Real-time strategy (RTS)",
@@ -68,5 +68,5 @@ export const publishers = [
         "genre": "Shooters (FPS and TPS)",
         "publisher": "",
         "price": 18.7
-    }
-]
+    }]
+}
