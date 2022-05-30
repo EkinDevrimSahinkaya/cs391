@@ -12,6 +12,7 @@ export default function App() {
       >
         {/* <Link to="/products">Products</Link> | <Link to="/about">About</Link>|{" "} */}
         <Link to="/addgame">Add Game</Link> |{" "}
+        <Link to="/addpublisher">Add Publisher</Link> |{" "}
         <Link to="/contact">Contact</Link> |{" "}
         <Link to="/about">About Us</Link> |{" "}
       </nav>

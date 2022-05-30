@@ -7,6 +7,7 @@ import {
 import App from "./App";
 // import Products from "./containers/Products";
 import AddGame from "./containers/AddGame";
+import AddPublisher from "./containers/AddPublisher";
 import Contact from "./containers/Contact";
 import About from "./containers/About";
 
@@ -19,6 +20,7 @@ root.render(
     <Routes>
       <Route path="/" element={<App />}>
         { <Route path="addgame" element={<AddGame />} /> }
+        { <Route path="addpublisher" element={<AddPublisher />} /> }
         <Route path="contact" element={<Contact />} />
         { <Route path="about" element={<About />} /> }
         <Route path="*" element={
