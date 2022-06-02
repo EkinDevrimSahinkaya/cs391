@@ -1,0 +1,83 @@
+.container {
+   flex-grow: 4;
+   
+   
+  }
+  .gridView {
+    background-color: #111111;
+    padding-left: 100px;
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 35vw);
+    grid-template-rows: repeat(1, 35vw);
+    grid-row-gap: 100px;
+    grid-column-gap: 100px;
+    padding-bottom: 100px;
+}
+/* Simple responsive  */
+@media (max-width: 600px) {
+
+  .gridView {
+      padding-left: 15%;
+      grid-template-columns: repeat(1, 50vw);
+      grid-template-rows: repeat(1, 110vw);
+  }
+}
+
+@media (min-width: 610px) {
+
+  .gridView {
+      padding-left: 3%;
+      grid-template-columns: repeat(2, 20vw);
+      grid-template-rows: repeat(1, 70vw);
+      grid-row-gap: 10px;
+      grid-column-gap: 180px;
+  }
+}
+
+@media (min-width: 1000px) {
+
+  .gridView {
+      padding-left: 4%;
+      grid-template-columns: repeat(3, 30vw);
+      grid-template-rows: repeat(1, 35vw);
+      grid-row-gap: 60px;
+      grid-column-gap: 20px;
+  }
+}
+
+@media (min-width: 1400px) {
+
+  .gridView {
+      padding-left: 100px;
+      padding-top: 20px;
+      grid-template-columns: repeat(4, 20vw);
+      grid-template-rows: repeat(1, 50vw);
+      grid-row-gap: 20px;
+      grid-column-gap: 40px;
+  }
+}
+.card-img-top {
+  width: 90%;
+  height: 15vw;
+  object-fit: cover;
+}
+.movieStack {
+  position: relative;
+}
+.eachMovie {
+  background-color: #222222;
+  padding: 10px;
+  height: fit-content;
+  border: 1px solid #121212;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.moviePoster {
+  width: 100px;
+  border-radius: 10px;
+  padding-bottom: 5px;
+}
