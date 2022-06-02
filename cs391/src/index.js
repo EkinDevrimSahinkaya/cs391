@@ -1,35 +1,11 @@
 import ReactDOM from "react-dom/client";
-import {
-  BrowserRouter,
-  Routes,
-  Route,
-} from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 import App from "./App";
-// import Products from "./containers/Products";
-import AddGame from "./containers/AddGame";
-import AddPublisher from "./containers/AddPublisher";
-import Contact from "./containers/Contact";
-import About from "./containers/About";
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
-
-const root = ReactDOM.createRoot(
-  document.getElementById("root")
-);
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
-    <Routes>
-      <Route path="/" element={<App />}>
-        { <Route path="addgame" element={<AddGame />} /> }
-        { <Route path="addpublisher" element={<AddPublisher />} /> }
-        <Route path="contact" element={<Contact />} />
-        { <Route path="about" element={<About />} /> }
-        <Route path="*" element={
-            <main style={{ padding: "1rem" }}>
-              <p>There's nothing here!</p>
-            </main>
-          }
-        />
-      </Route>  
-    </Routes>
+    <App />
   </BrowserRouter>
 );

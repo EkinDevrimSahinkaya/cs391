@@ -1,81 +1,94 @@
 {
   "games": [
     {
+      "id": 1,
       "name": "Among Us",
       "description": "An online and local party game of teamwork and betrayal for 4-15 players...in space!",
       "genre": "Real-time strategy (RTS)",
       "publisher": "MrSuicideSheep",
-      "price": 22.5
+      "price": 22.5,
+      "path": "images/among_us.jpg"
     },
     {
+      "id": 2,
       "name": "Apex Legends",
-      "description": "Apex Legends is a free-to-play hero shooter game where legendary competitors battle for glory, fame, and fortune on the fringes of the Frontier.",
+      "description": "Apex Legends is a free-to-play hero shooter game where legendary competitors battle for glory.",
       "genre": "Survival and horror",
       "publisher": "EA Sports",
-      "price": 58.5
+      "price": 58.5,
+      "path": "images/apex.jpg"
     },
     {
+      "id": 3,
       "name": "Fall Guys",
-      "description": "Fall Guys is a massively multiplayer party game with up to 60 players online in a free-for-all struggle through round after round of escalating chaos until one victor remains!",
+      "description": "Fall Guys is multiplayer game, players online in a free-for-all struggle through round of chaos until one winner!",
       "genre": "Platformer",
       "publisher": "Ubisoft",
-      "price": 69.3
+      "price": 69.3,
+      "path": "images/fall_guys.jpg"
     },
     {
+      "id": 4,
       "name": "Genshin Impact",
       "description": "Explore Vast Areas, Encounter Powerful Enemies, and Discover Secrets of an Unknown World.",
       "genre": "Puzzlers and party games",
       "publisher": "Gameloft",
-      "price": 98.4
+      "price": 98.4,
+      "path": "images/genshin_impact.jpg"
     },
     {
+      "id": 5,
       "name": "Horizon Zero Dawn",
       "description": "Horizon Zero Dawn™ is a multi-award-winning action role-playing game.",
       "genre": "Real-time strategy (RTS)",
       "publisher": "Ubisoft",
-      "price": 34.6
+      "price": 34.6,
+      "path": "images/horizon.jpg"
     },
     {
+      "id": 6,
       "name": "Minecraft",
       "description": "Players create and break apart various kinds of blocks in three-dimensional worlds.",
       "publisher": "Gameloft",
       "genre": "Sandbox",
-      "price": 43.6
+      "price": 43.6,
+      "path": "images/minecraft.jpg"
     },
     {
+      "id": 7,
       "name": "Persona 5",
       "description": "Persona 5 is a 2016 role-playing video game developed by Atlus",
       "genre": "Role-playing (RPG, ARPG, and More)",
       "publisher": "Half-Life",
-      "price": 63.4
+      "price": 63.4,
+      "path": "images/persona5.jpg"
     },
     {
+      "id": 8,
       "name": "The Sims 4",
       "description": "Create Unique Sims — A variety of Sims are yours to shape and mold, each with distinct appearances, dynamic personalities.",
       "genre": "Action-adventure",
       "publisher": "EA Sports",
-      "price": 18.4
+      "price": 18.4,
+      "path": "images/sims.jpg"
     },
     {
+      "id": 9,
       "name": "Stardew Valley",
       "description": "Stardew Valley is an open-ended country-life RPG! You've inherited your grandfather's old farm plot in Stardew Valley.",
       "genre": "Multiplayer online battle arena (MOBA)",
       "publisher": "MrSuicideSheep",
-      "price": 29.5
+      "price": 29.5,
+      "path": "images/stardew_valley.png"
     },
     {
+      "id": 10,
       "name": "Valorant",
       "description": "Valorant is a tactical shooting game involving two teams with 5 players in each team.",
       "genre": "Shooters (FPS and TPS)",
       "publisher": "Half-Life",
-      "price": 18.7
-    },
-    {
-        "name": "ASA",
-        "desc": "aaaa",
-        "price": "20",
-        "publisher": "jhjg",
-        "genre": "jhgjhg"
-      }
+      "price": 18.7,
+      "path": "images/valorant.jpg"
+    }
   ]
 }
