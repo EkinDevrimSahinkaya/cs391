@@ -78,67 +78,6 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-  
-
-## Learn More
-
-  
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-  
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-  
-
-### Code Splitting
-
-  
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-  
-
-### Analyzing the Bundle Size
-
-  
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-  
-
-### Making a Progressive Web App
-
-  
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-  
-
-### Advanced Configuration
-
-  
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-  
-
-### Deployment
-
-  
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-  
-
-### `npm run build` fails to minify
-
-  
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-  
 
 ## Members
 
@@ -182,16 +121,14 @@ With the game showcase we are aiming to bring game lovers and the games together
 
 - Başak Balcı: Add game page implemented. This page includes a form. This form takes the name, description, publisher, publisher, genre, price and path of image . When the form is submitted, data is send using axios, post method..
 
-- Ceren Yıldızdoğan: About Us and  implemented. In about page you can see the participants and in contact page you can concenct information  .
+- Ceren Yıldızdoğan: About Us and Contact implemented. In about page you can see the participants and in contact page you can find the contact information. Fake server implemented.
 
   
 
-|MEMBER |RESPONSIBILITY |
 
+  
+|MEMBER                         |RESPONSIBILITY               |
 |-------------------------------|-----------------------------|
-
-|Ekin Devrim Şahinkaya |Home page |
-
-|Başak Balcı |Add game implemented |
-
-|Ceren Yıldızdoğan|About Us and Contact|
+|Ekin Devrim Şahinkaya          |Home page           |
+|Başak Balcı           |AddGame page implemented            |
+|Ceren Yıldızdoğan|About Us Contact and Fake Server implemented|
